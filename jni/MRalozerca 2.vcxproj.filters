@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\MiniGRY">
+      <UniqueIdentifier>{197fbd8c-0ef3-49cd-9b8f-8d6e5ec80425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MiniGRY">
+      <UniqueIdentifier>{32ae03f0-da09-4ab9-a46d-0008cbe389ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Funkcje.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="BiegZPrzeszkodami.cpp">
+      <Filter>Pliki źródłowe\MiniGRY</Filter>
+    </ClCompile>
+    <ClCompile Include="EkranZWynikami.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ScieranieTablicy.cpp">
+      <Filter>Pliki źródłowe\MiniGRY</Filter>
+    </ClCompile>
+    <ClCompile Include="HarryCatter.cpp">
+      <Filter>Pliki źródłowe\MiniGRY</Filter>
+    </ClCompile>
+    <ClCompile Include="WyscigMRalow.cpp">
+      <Filter>Pliki źródłowe\MiniGRY</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Funkcje.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Obiekty.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EkranZWynikami.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="BiegZPrzeszkodami.hpp">
+      <Filter>Pliki nagłówkowe\MiniGRY</Filter>
+    </ClInclude>
+    <ClInclude Include="ScieranieTablicy.hpp">
+      <Filter>Pliki nagłówkowe\MiniGRY</Filter>
+    </ClInclude>
+    <ClInclude Include="HarryCatter.hpp">
+      <Filter>Pliki nagłówkowe\MiniGRY</Filter>
+    </ClInclude>
+    <ClInclude Include="WyscigMRalow.hpp">
+      <Filter>Pliki nagłówkowe\MiniGRY</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
